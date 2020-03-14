@@ -28,6 +28,7 @@ A local version will now be running on [localhost:1234](http://localhost:1234)
 
 - [Roboto font](https://fonts.google.com/specimen/Roboto) is loaded via google font cdn and CSS.
 - Background image is loaded via [parcel asset loader](https://parceljs.org/assets.html) and passed to p5.
+- Mp3 Sound is loaded via ajax and put in `static` folder.
 
 ### Credits
 
@@ -35,4 +36,5 @@ The mp3 is from [https://freemusicarchive.org/genre/Ambient_Electronic](https://
 
 ### Side notes
 
-P5.sound module with parcel is loaded via `require`. For more information if you want to use `import` see [this asnwer on stackoverflow](https://stackoverflow.com/a/47984928/433685)
+- P5 uses [instanced mode](https://github.com/processing/p5.js/wiki/Global-and-instance-mode).
+- P5.sound module with parcel is loaded via `require`. For more information if you want to use `import` see [this asnwer on stackoverflow](https://stackoverflow.com/a/47984928/433685)
