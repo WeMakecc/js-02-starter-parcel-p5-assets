@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "rm -rf build .cache dist",
     "lint": "eslint src --color",
-    "start": "NODE_ENV=development parcel src/index.html --no-autoinstall",
+    "start": "parcel src/index.html --no-autoinstall",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,13 @@
     "process": false
   },
   "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-config-standard": "^14.1.0",
