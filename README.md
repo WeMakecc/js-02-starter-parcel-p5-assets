@@ -10,7 +10,7 @@ This repository is a getting started with [p5](https://p5js.org/) and show how t
 
 Be sure to have node-js installed.
 
-Download the repository at [https://github.com/wemake/starter-parcel](https://github.com/wemake/starter-parcel), unzip and open a terminal in the project directory.
+Download the repository at [https://github.com/WeMakecc/js-02-starter-parcel-p5-assets](https://github.com/WeMakecc/js-02-starter-parcel-p5-assets), unzip and open a terminal in the project directory.
 
 ```
 npm install
